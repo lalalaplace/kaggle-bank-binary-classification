@@ -2,7 +2,7 @@
 
 ## 概述
 
-这是 Kaggle Playground Series S5E8 银行客户响应营销二分类项目的整理版。仓库目标是可复现实验：代码提交到 GitHub，数据与中间文件通过 `.gitignore` 排除，复现者按说明下载数据后运行训练和 stacking 流程。
+这是 Kaggle Playground Series S5E8 银行客户响应营销二分类项目的整理版。
 
 比赛链接：https://www.kaggle.com/competitions/playground-series-s5e8
 
@@ -83,12 +83,3 @@ outputs/oof/
 outputs/pred/
 outputs/submissions/
 ```
-
-## 说明
-
-- `data/`、`outputs/`、`.npy`、`.pkl` 和提交结果 `.csv` 已通过 `.gitignore` 排除，不会提交到仓库。
-- 新代码位于 `src/bank_marketing/`，历史脚本已整理到 `scripts/legacy/`，仅用于追溯原始比赛过程。
-- 原始数据、中间预测文件和历史提交结果已从仓库清除；复现时需重新下载数据并运行脚本生成。
-- 默认训练入口使用 GPU，详见上方「GPU 支持说明」。
-- 长任务会打印带时间戳的阶段日志；模型训练日志可通过 `--log-period` 调整。
-- 更详细的方法说明见 `docs/method.md`。
