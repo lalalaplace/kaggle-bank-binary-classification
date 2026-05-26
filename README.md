@@ -2,7 +2,7 @@
 
 ## 概述
 
-这是 Kaggle Playground Series S5E8 银行客户响应营销二分类项目的整理版。
+这是个人在 Kaggle Playground Series S5E8 银行客户响应营销二分类项目中的代码整理。
 
 比赛链接：https://www.kaggle.com/competitions/playground-series-s5e8
 
