@@ -1,0 +1,27 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本地环境
+.venv/
+venv/
+.env
+.claude/
+
+# Kaggle 数据和生成结果不提交
+data/
+outputs/
+*.npy
+*.pkl
+*.joblib
+
+# 历史比赛输出文件
+submission*.csv
+*_stacking.csv
+
+# 系统文件
+.DS_Store
+Thumbs.db
