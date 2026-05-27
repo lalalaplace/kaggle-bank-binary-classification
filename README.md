@@ -83,3 +83,7 @@ outputs/oof/
 outputs/pred/
 outputs/submissions/
 ```
+
+## 许可证
+
+本项目代码使用 MIT License。数据需遵守 Kaggle 比赛页面和 UCI Bank Marketing 数据集的使用条款。
